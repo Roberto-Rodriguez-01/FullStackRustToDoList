@@ -31,9 +31,10 @@ cd TODO_Rust_FullStack/backend
 ```sh
 cargo build
 ```
+
 7. Run the backend
 ```
-9. cargo run
+cargo run
 ```
 
 ## what arjun needs to do
