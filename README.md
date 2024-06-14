@@ -2,14 +2,14 @@
 
 ## How to install the backend
 
-1. Install Rust Toolchain
+1. Install Rust Toolchain (includes cargo)
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 2. Install Database
 ```sh
-sudo <whatever your installer is> -S sqlite
+sudo <How ever you install stuff> sqlite
 ```
 
 3. Install Diesel CLI
