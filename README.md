@@ -27,12 +27,18 @@ git clone https://github.com/username/TODO_Rust_FullStack.git
 cd TODO_Rust_FullStack/backend
 ```
 
-6. Build the backend server
+6. Update diesel.toml with your dir
+```
+[migrations_directory]
+dir = "/home/bobby/TODO_Rust_FullStack/backend/migrations"
+```
+
+7. Build the backend server
 ```sh
 cargo build
 ```
 
-7. Run the backend
+8. Run the backend
 ```
 cargo run
 ```
